@@ -4,7 +4,8 @@ use bevy::{
     winit::WinitWindows,
 };
 use ringbuffer::{ConstGenericRingBuffer, RingBufferExt, RingBufferWrite};
-use std::time::{Duration, Instant};
+use std::time::{Duration};
+use instant::Instant;
 
 #[derive(Debug, Clone, Component)]
 pub struct FramepacePlugin {
